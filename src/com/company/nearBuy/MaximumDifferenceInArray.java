@@ -24,7 +24,7 @@ public class MaximumDifferenceInArray {
         maximumDifference = -1;
         int k =0,l = 0;
         while (k < arr.length && l < arr.length) {
-            maximumDifference = Math.max(maximumDifference,Math.abs(leftMinimum[i] - rightMaximum[j]));
+//            maximumDifference = Math.max(maximumDifference,Math.abs(leftMinimum[i] - rightMaximum[j]));
             k++;
             l++;
         }

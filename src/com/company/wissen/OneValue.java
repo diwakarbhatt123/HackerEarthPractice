@@ -1,24 +1,79 @@
-package com.company.Gap;
+package com.company.wissen;
 
-import java.io.DataInputStream;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.TreeSet;
+import java.io.*;
+import java.util.*;
 
-public class TheParkingSlot {
+public class OneValue {
 
-    public static void main(String[] args) throws IOException{
-        Reader reader = new Reader();
-        int N = reader.nextInt();
-        int E = reader.nextInt();
-        int F = reader.nextInt();
-        int nodes[] = new int[N];
-        for (int i = 0; i < N; i++) {
-            nodes[i] = reader.nextInt();
+    private static Map<Integer, Integer> frequencyMap = new HashMap<>();
+    public static void main(String args[] ) throws Exception {
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int M = Integer.parseInt(br.readLine());
+        for (int i = 0; i < M; i++) {
+            StringTokenizer tk = new StringTokenizer(br.readLine());
+            int type = Integer.parseInt(tk.nextToken());
+            if (type == 1) {
+                int val = Integer.parseInt(tk.nextToken());
+                add_to_list(val);
+            }
+            else if (type == 2) {
+                int val = Integer.parseInt(tk.nextToken());
+                remove_from_list(val);
+            }
+            else if (type == 3) {
+                find_least_frequency();
+            }
+            else if (type == 4){
+                find_highest_frequency();
+            }
         }
-        int sum = Arrays.stream(nodes,0,4).sum() + ;
     }
+    public static void add_to_list(int val){
+        Integer freq = frequencyMap.get(val);
+        if (Objects.isNull(freq)) {
+            freq = 1;
+        } else {
+            freq++;
+        }
+        frequencyMap.put(val, freq);
+    }
+
+    public static void remove_from_list(int val){
+        Integer freq = frequencyMap.get(val);
+        if (Objects.nonNull(freq)) {
+            freq--;
+        }
+        frequencyMap.put(val, freq);
+    }
+
+    public static void find_least_frequency(){
+        Optional<Map.Entry<Integer, Integer>> maxFreqEntry = frequencyMap.entrySet().parallelStream().min((o1, o2) -> {
+            if (Objects.equals(o1.getValue(), o2.getValue())) {
+                return (Objects.equals(o1.getKey(), o2.getKey())) ? 0 : ((o1.getKey() < o2.getKey()) ? 1 : -1);
+            } else {
+                return (o1.getValue() > o2.getValue()) ? 1 : -1;
+            }
+        });
+        System.out.println(maxFreqEntry.map(Map.Entry::getKey).orElse(-1));
+    }
+
+    public static void find_highest_frequency() throws Exception{
+        try {
+            Optional<Map.Entry<Integer,Integer>> minFreqEntry = frequencyMap.entrySet().parallelStream().max((o1, o2) -> {
+                if (Objects.equals(o1.getValue(), o2.getValue())) {
+                    return (Objects.equals(o1.getKey(), o2.getKey())) ? 0 : ((o1.getKey() > o2.getKey()) ? 1 : -1);
+                } else {
+                    return (o1.getValue() > o2.getValue()) ? 1 : -1;
+                }
+            });
+            System.out.println(minFreqEntry.map(Map.Entry::getKey).orElse(-1));
+        }catch (NullPointerException npe){
+            System.err.println(npe.getMessage()+"\n"+frequencyMap.toString());
+            throw new Exception(npe.getMessage()+"\n"+frequencyMap.toString());
+        }
+    }
+
 
     static class Reader {
         final private int BUFFER_SIZE = 1 << 16;
@@ -39,7 +94,7 @@ public class TheParkingSlot {
         }
 
         public String readLine() throws IOException {
-            byte[] buf = new byte[64]; // line length
+            byte[] buf = new byte[(int) Math.pow(10, 5)]; // line length
             int cnt = 0, c;
             while ((c = read()) != -1) {
                 if (c == '\n')
@@ -126,5 +181,4 @@ public class TheParkingSlot {
             din.close();
         }
     }
-
 }
