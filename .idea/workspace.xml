@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a1735e-91ae-4e70-8978-22761947256a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Esko/UnitBalancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/capillary/OldAndColdNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/goldman/CountingConnections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/goldman/SpecialElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/hackerrank/HourGlass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/wissen/OneValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerEarth/com/company/nearBuy/MaximumDifferenceInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerEarth/com/company/nearBuy/MaximumDifferenceInArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerEarth/com/company/Gap/TheParkingSlot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerEarth/com/company/Gap/TheParkingSlot.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Gap/TheParkingSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Gap/TheParkingSlot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/nearBuy/MaximumDifferenceInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/nearBuy/MaximumDifferenceInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hackerrank/HourGlass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hackerrank/HourGlass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +34,8 @@
       <file leaf-file-name="TheParkingSlot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Gap/TheParkingSlot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="270">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,8 +46,11 @@
       <file leaf-file-name="HourGlass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/hackerrank/HourGlass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="477">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,7 +134,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,6 +156,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,23 +180,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountingConnections">
-    <configuration name="CountDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.nearBuy.CountDuplicates" />
-      <module name="HackerEarth" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.nearBuy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.HourGlass">
     <configuration name="CountingConnections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.goldman.CountingConnections" />
       <module name="HackerEarth" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.goldman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HourGlass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.hackerrank.HourGlass" />
+      <module name="HackerEarth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,19 +232,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.CountDuplicates" />
       <item itemvalue="Application.MaximumDifferenceInArray" />
       <item itemvalue="Application.OldAndColdNumbers" />
       <item itemvalue="Application.OneValue" />
       <item itemvalue="Application.CountingConnections" />
+      <item itemvalue="Application.HourGlass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HourGlass" />
         <item itemvalue="Application.CountingConnections" />
         <item itemvalue="Application.OneValue" />
         <item itemvalue="Application.OldAndColdNumbers" />
         <item itemvalue="Application.MaximumDifferenceInArray" />
-        <item itemvalue="Application.CountDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -276,15 +273,25 @@
       <workItem from="1528527892662" duration="881000" />
       <workItem from="1532247286374" duration="4294000" />
       <workItem from="1532843146698" duration="7086000" />
-      <workItem from="1533204227270" duration="204000" />
+      <workItem from="1533204227270" duration="1506000" />
+      <workItem from="1533273728378" duration="58000" />
     </task>
+    <task id="LOCAL-00001" summary="Added more solutions">
+      <created>1533204715950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533204715950</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77877000" />
+    <option name="totallyTimeSpent" value="79237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -295,17 +302,17 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4114713" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32917705" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32917705" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24105866" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2446352" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29800498" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43017456" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,6 +328,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added more solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more solutions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -524,12 +535,33 @@
           <properties />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/hackerrank/HourGlass.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="66" />
+      <option name="time" value="67" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>arr[i+1][j+1];</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Arrays.stream(arr[i],j,j+3).sum();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>reader.nextInt();</expression-string>
         <language-id>JAVA</language-id>
@@ -560,21 +592,6 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>IntStream.rangeClosed(l,r).count()-evenInRange;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>IntStream.rangeClosed(l,r).count();</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Math.abs(IntStream.rangeClosed(l,r).count() -evenInRange);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
     </expressions>
     <expressions id="breakpointCondition">
       <expression>
@@ -585,13 +602,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="249" column="28" selection-start-line="249" selection-start-column="28" selection-end-line="249" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/competetion/PowerSetSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -806,6 +816,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="3156" column="22" selection-start-line="3156" selection-start-column="16" selection-end-line="3156" selection-end-column="22" />
+          <folding>
+            <element signature="e#22786#22787#0" expanded="true" />
+            <element signature="e#22821#22822#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -847,6 +861,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
           <caret line="1181" column="22" selection-start-line="1181" selection-start-column="22" selection-end-line="1181" selection-end-column="22" />
+          <folding>
+            <element signature="e#17181#17182#0" expanded="true" />
+            <element signature="e#17264#17265#0" expanded="true" />
+            <element signature="e#46227#46228#0" expanded="true" />
+            <element signature="e#46266#46267#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -953,9 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="1958" selection-start-line="1958" selection-end-line="1958" />
-          <folding>
-            <element signature="e#76090#76091#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,10 +993,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Gap/TheParkingSlot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="270">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -988,8 +1012,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/hackerrank/HourGlass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="477">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

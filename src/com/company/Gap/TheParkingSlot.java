@@ -17,7 +17,6 @@ public class TheParkingSlot {
         for (int i = 0; i < N; i++) {
             nodes[i] = reader.nextInt();
         }
-        int sum = Arrays.stream(nodes,0,4).sum() + ;
     }
 
     static class Reader {
